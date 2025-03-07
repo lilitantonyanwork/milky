@@ -775,6 +775,7 @@ footer .container{
 
 }
 @media screen and (max-width: 768px){
+
     .navbar-menu{
         display: none;
     }
