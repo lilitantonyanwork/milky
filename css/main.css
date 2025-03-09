@@ -1274,6 +1274,21 @@ footer .container{
     .review__item{
         width: 100%!important;
     }
+    .m-modal--like .m-modal-dialog{
+        height: fit-content;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 32px;
+    }
+    .m-modal--dislike .m-modal-dialog{
+        height: fit-content;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 32px;
+    }
+    .m-modal .m-modal-dialog{
+        height: fit-content;
+    }
 }
 @media screen and (max-width: 410px){
     .master__tags{
