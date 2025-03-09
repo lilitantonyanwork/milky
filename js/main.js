@@ -64,7 +64,10 @@ $(function (){
         $(this).hide();
 
     })
-    $('.mobile-review__img--count').on('click',function (){
+    $('.m-modal-overlay').on('click',function (){
+        $('.js-modal-close').trigger('click');
+    })
+    $('.mobile-review__block').on('click',function (){
         console.log('aaaaa')
         $('.master__info').addClass('hidden');
         $('.master-about').addClass('hidden');

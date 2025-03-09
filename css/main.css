@@ -1275,6 +1275,9 @@ footer .container{
         width: 100%!important;
     }
 }
-@media screen and (max-width: 480px){
-
+@media screen and (max-width: 410px){
+    .master__tags{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
